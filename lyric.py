@@ -29,7 +29,7 @@ for j in takeoff:
 print lyrics
 #change the argument inside os.chdir so that you can store all of your lyrics in that directory
 # example os.chdir("c:/users/yourusename/YourLyricsFolder/")
-path=raw_input("Enter the location where you want to store lyrics")
+path=raw_input("Enter the location where you want to store lyrics\n Ex:c:/users/yourusename/YourLyricsFolder/    :  ")
 #os.chdir("C:/Users/vijay/Music/lyrics/")
 os.chdir(path)
 with open (s+".txt","wb") as l:
